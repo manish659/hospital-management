@@ -18,7 +18,7 @@ curl --location 'localhost:8080/api/staff/signup' \
     "first_name": "Manish",
     "last_name": "garg",
     "profile": "Doctor",
-    "phone_no": "7014201950",
+    "phone_no": "701420****",
     "password": "1234"
 }'
 ```
@@ -28,7 +28,7 @@ curl --location 'localhost:8080/api/staff/signup' \
 curl --location 'localhost:8080/api/staff/login' \
 --header 'Content-Type: application/json' \
 --data '{
-    "phone_no": "7014201950",
+    "phone_no": "701420****",
     "password": "12344"
 }'
 
